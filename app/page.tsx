@@ -1,3 +1,4 @@
+import { InvoiceTable } from '@/components/invoice-table';
 import { ITRequestForm } from '@/components/itrequest-form';
 import Image from 'next/image';
 
@@ -8,6 +9,8 @@ export default function Home() {
         <h1>IT Request Form generation</h1>
       </div>
       <ITRequestForm />
+
+      <InvoiceTable />
     </main>
   );
 }
