@@ -1,3 +1,4 @@
+import { DashBoard } from '@/components/dash-board';
 import { InvoiceTable } from '@/components/invoice-table';
 import { ITRequestForm } from '@/components/itrequest-form';
 import Image from 'next/image';
@@ -11,6 +12,8 @@ export default function Home() {
       <ITRequestForm />
 
       <InvoiceTable />
+
+      <DashBoard />
     </main>
   );
 }
